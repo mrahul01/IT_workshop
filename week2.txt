@@ -1,0 +1,62 @@
+                Week_2
+
+Grep Command in Unix:
+    -The grep command in Unix/Linux is a powerful tool used for searching and manipulating text patterns within files.
+    
+        -->grep -c "unix" geekfile.txt
+            -c: This prints only a count of the lines that match a pattern
+        -->grep -h "unix" geekfile.txt
+            -h: Display the matched lines, but do not display the filenames.
+        -->grep -l "unix" geekfile.txt
+            -l: Displays list of a filenames only.
+        -->grep -n "unix" geekfile.txt
+            -n: Display the matched lines and their line numbers.
+        -->grep -v "unix" geekfile.txt
+            -v: This prints out all the lines that do not matches the pattern
+        -->grep -e "unix" geekfile.txt
+            -e : Specifies expression with this option. Can use multiple times.
+        -->grep -o "unix" geekfile.txt
+            -o :Print only the matched parts of a matching line, with each such part on a separate output line.
+Sed Command in Unix:
+    -SED is a powerful text stream editor. Can do insertion, deletion,search and replace(substitution).
+    -SED command in unix supports regular expression which allows it perform complex pattern matching.
+    
+     -->sed 's/unix/linux/' geekfile.txt
+       -sed command replaces the word “unix” with “linux” in the file.
+     -->sed 's/unix/linux/2' geekfile.txt
+       -sed command replaces the second occurrence of the word “unix” with “linux” in a line.
+     -->sort file.txt
+       -the sort command is used to sort the lines of a text file or input stream.
+     -->awk '/manager/ {print}' employee.txt
+       -awk is particularly useful for processing structured text files, such as CSV files or log files.
+     -->awk '{print $1,$4}' employee.txt
+       -awk If the line has 4 words, it will be stored in $1, $2, $3 and $4 respectively. Also, $0 represents the whole line.
+chmod Command:
+      -In Unix operating systems, the chmod command is used to change the access mode of a file. The name is an abbreviation of change mode.
+        Read Permission     -r
+        Write Permission    -w
+        Execute Permission  -x
+     -->chmod u+x filename
+       -Add execute permission for the owner.
+     -->chmod go-w filename
+       -Remove write permission for group
+     -->chmod a=rwx filename 
+       -Set read, write, and execute permissions
+shutdowm Command
+       -The shutdown command in Linux is used to shutdown the system in a safe way.
+     -->$ shutdown -H
+       --H : Requests that the system be halted after it has been brought down.
+     -->shutdown -P
+       --P : Requests that the system be powered off after it has been brought down.
+     -->shutdown -r now
+       -r : Requests that the system be rebooted after it has been brought down.
+     -->shutdown -c
+       -c : Cancels a running shutdown.
+     -->sudo shutdown 15:00
+       -shutdowns at specific time at "15:00".
+SSH :
+       -SSH, or Secure Shell, constitutes a cryptographic network protocol designed to enable secure communication between two systems over networks that may not be secure.
+     
+FTP:
+       -File transfer protocol (FTP) is an Internet tool provided by TCP/IP.
+    
