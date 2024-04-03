@@ -1,0 +1,37 @@
+Week_1
+        BASIC UNIX COMMANDS
+ Unix Users Commands
+   -These commands allow you to get basic information about Unix users in your environment.
+	->whoami – show your username
+	->id – print user identity
+	->groups – show which groups user belongs to
+	->passwd – change user password
+	->who – find out who is logged into the system
+	->last – show history of logins into the system
+Unix file operations
+  -Navigating filesystem and managing files and access permissions:
+	->nslookup google.com – server address
+	->cp – copy files (work in progress)
+	->rm – remove files and directories (work in progress)
+	->mv – rename or move files and directories to another location
+	->echo – “hello world”
+	
+1) touch: Create a new file or update its timestamp.
+2) cat: Concatenate files and print to stdout.
+3) cp: Copy files
+4) mv: Move files or rename files
+5) rm: Remove files and directories
+6) mkdir: Make a directory
+7) rmdir: Remove a directory
+8) cd: Change directory
+9) pwd: Print the present working directory
+10) ls: List directory contents
+11) which: Locate a command
+12) man: Interface for working with the online reference manuals.
+13) su: Change user-id or become super-user.
+14) sudo: Execute a command as some other user or super-user
+15) find: Used to search for files and directories as mentioned in the ‘expression’
+16) du: Estimate disk usage is blocks
+17) df: Show the number of free blocks for the mounted file system
+18) date: Displays the system date and time.
+19) who: Displays the list of users currently logged in
